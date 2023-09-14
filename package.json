@@ -6,6 +6,8 @@
     "apps/*",
     "packages/*"
   ],
+
+  "engines": {"node": ">=14 <15"},
   "scripts": {
     "analyze": "ANALYZE=true yarn build",
     "dev": "next dev",
